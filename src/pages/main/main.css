@@ -1,0 +1,45 @@
+div.listProducts{
+    max-width: 700px;
+    margin: 5px auto 0;
+    padding: 0 20px;
+}
+
+.listProducts article{
+    background-color:rgba(245, 245, 245, 0.932);
+    border: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;    
+}
+ .listProducts article h2{
+     color : #FF8000;
+     text-shadow: 0.4px 0.4px 0.4px gray;
+ }
+ .listProducts article p{
+     font-size: smaller;
+ }
+ .listProducts article a{
+     display: flex;
+     justify-content: center;
+     border: 1px solid hsl(30, 97%, 42%) ;
+     background-color:#FF8000;
+     text-decoration: none;
+     color: white;
+     margin-top: 5px;
+     padding: 8px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     align-items: center;
+     border-radius: 10px;
+     transition: all 0.4s;
+ }
+ .listProducts article a:hover{
+     opacity: 0.5;
+ }
+ .btnPage{
+    display: flex;
+    justify-content: space-between;     
+ }
+ .btnPage button{
+     padding: 5px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
